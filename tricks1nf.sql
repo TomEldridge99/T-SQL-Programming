@@ -1,4 +1,13 @@
-SELECT concat(animal_nbr,'-', tricknumber) as Concatkey, animal_nbr, tricknumber, trickname, tricklearnedat, skilllevel --value1 --trickname --, trick_learned_at, trick_skill_level
+DROP TABLE IF EXISTS tricks1nf
+-- this makes the script rerunable
+SELECT 
+	concat(animal_nbr,'-', tricknumber) as Concatkey,
+	animal_nbr,
+	tricknumber,
+	trickname,
+	tricklearnedat,
+	skilllevel
+INTO tricks1nf
 FROM
     (SELECT *
 	 FROM circusdata
@@ -23,3 +32,4 @@ where
 	RIGHT(value2,1) = RIGHT(value4,1)
 	and
 	Right(value3,1) = RIGHT(value4,1)
+select * from tricks1nf
