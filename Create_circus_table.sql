@@ -1,4 +1,7 @@
-create table circusdata
+DROP TABLE IF EXISTS circusdata
+-- this makes the script rerunable
+CREATE TABLE circusdata
+-- creates the table with specified columns and datatypes
 (
 animal_nbr int,
 animal_name varchar(10),
@@ -26,8 +29,8 @@ trick_name5 varchar(10),
 trick_learned_at5 int,
 trick_skill_level5 int
 )
-
 INSERT INTO circusdata 
+-- inserts data into specified columns 
 (
 animal_nbr,
 animal_name,
@@ -55,12 +58,11 @@ trick_name5,
 trick_learned_at5,
 trick_skill_level5
 )
-
 VALUES
 ( 1, 'George', 1, 'Monkeys', 'Outdoor', 1, 'rollover', 5, 2, 2, 'jumpover', 6, 3,3,'eatnanas', 4, 5, 4, 'smileyface', 6, 3, 5, 'rasberry', 7,2),
 ( 2, 'Fred', 1, 'Monkeys', 'Outdoor', 6, 'swing', 2, 4, 1, 'rollover', 3, 3, 4, 'smileyface', 5, 2, 7, 'throwpoo', 7, 6, 5, 'rasberry',3,1),
 ( 3, 'Ellis', 2, 'Lions', 'Outdoor', 1, 'rollover', 5, 2, 2, 'jumpover', 6, 3,3,'eatnanas', 4, 5, 4, 'smileyface', 6, 3, 5, 'rasberry', 7,2),
 ( 4, 'Schmuel', 2, 'Lions', 'Outdoor', 6, 'swing', 5, 2, 3,'eatnanas', 6, 3,4, 'smileyface', 4, 5, 7, 'throwpoo', 6, 3, 5, 'rasberry', 7,2),
 ( 5, 'Jerry', 2, 'Birds', 'Indoor', 8, 'frontflip', 5, 2, 9,'backflip', 6, 3,10, 'peck', 4, 5, 2, 'jumpover', 6, 3, 5, 'rasberry', 7,2)
-
-
+SELECT * FROM circusdata
+-- selects everything from resulting table
