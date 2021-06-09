@@ -1,0 +1,60 @@
+C:\Users\teldridg\Documents\Git\T-SQL Programming>git log
+commit c0af1de0cdfdc3c3f94d28ce7a0dac8c8e6981a2 (HEAD -> master)
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Tue Jun 8 14:24:59 2021 +0100
+
+    finalising chapter 1
+
+commit a092e06acac8722b7a2f26bdf802620ed228dc60
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Tue Jun 8 13:58:10 2021 +0100
+
+    further work
+
+commit 75c120acb56bd60a1b947b465a7cb12db2f0fc57
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Mon Jun 7 12:12:52 2021 +0100
+
+    further progress
+
+commit 8c86a782925fc3fc5cbf5c643965ac7e439758cd
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Fri Jun 4 16:06:41 2021 +0100
+
+    added word doc
+
+commit a669c41c1102e94420992b828214377a59200c14
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Fri Jun 4 16:05:23 2021 +0100
+
+    added readme file for azure sql set up
+
+commit a9fe614b3a73c6da3cf04221a9d2c603df277489
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Fri Jun 4 16:00:01 2021 +0100
+
+    added 2nf tables
+
+commit 687cdb21680475d1c4dac2a32bf6b5dc6f364048
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Fri Jun 4 15:30:56 2021 +0100
+
+    cleaned up tricks script and made it create a table and rerunable
+
+commit 002630e77082df29e21e5c4e7812de55f4976de0
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Fri Jun 4 15:22:30 2021 +0100
+
+    added 1nf level scripts
+
+commit 2ce746bd34ea91ccd07624d5f8916769fd797e23
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Fri Jun 4 13:05:22 2021 +0100
+
+    removed duplicate sql scripts
+
+commit ff9d953b2dc68c0faef182aeae2ab1a42882f2c0
+Author: Tom Eldridge <tom.eldridge@capgemini.com>
+Date:   Fri Jun 4 13:04:22 2021 +0100
+
+    first commit
